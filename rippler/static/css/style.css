@@ -34,7 +34,7 @@ body
     box-sizing: border-box;
     /* border: 5px solid rgb(0, 255, 0); */
     border-radius: 50%;
-    animation: animate 5s linear infinite, border_animation2 20s linear infinite;
+    animation: animate 5s linear infinite, border_animation2 30s linear infinite;
     animation-delay: calc(-0.5s * var(--i));
     /* animation-iteration-count: 2; */
 }
@@ -84,7 +84,7 @@ body
     position: absolute;
     bottom: 300px;
     left: 255px;
-    background-color: rgba(0,255,0,0.25);
+    background-color: rgb(201, 250, 201);
     height:600px;
     width:255px;
 }
@@ -94,7 +94,7 @@ body
     position: absolute;
     bottom: 0px;
     left: 255px;
-    background-color: rgba(0,255,0,0.25);
+    background-color: rgb(201, 250, 201);
     height:600px;
     width:255px;
 }
@@ -103,7 +103,7 @@ body
     display: block;
     position: absolute;
     top: 0px;
-    background-color: rgba(0,255,0,0.25);
+    background-color: rgb(201, 250, 201);
     height:300px;
     width:600px;
 }
@@ -113,7 +113,7 @@ body
     position: absolute;
     bottom: 300px;
     top: 100px;
-    background-color: rgba(0,255,0,0.25);
+    background-color: rgb(201, 250, 201);
     height:600px;
     width:255px;
 }
@@ -129,7 +129,7 @@ from {border: 5px solid rgba(0, 255, 0, 0);}
     {
         border: 5px solid rgba(0, 255, 0, 0);
     }
-    75%
+    85%
     {
         border: 5px solid rgba(0, 255, 0, 0.25);
     }
