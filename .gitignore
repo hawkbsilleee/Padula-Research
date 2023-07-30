@@ -1,7 +1,1 @@
-data_transcription/pdfs
-data_transcription/auth.py
-data_transcription/auth.py
-data_transcription/create-sheets.py
-data_transcription/credentials.json
-data_transcription/update.py
-
+data_transcription_auto/
