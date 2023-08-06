@@ -37,7 +37,7 @@ body
 
     /* animation: animate2 5s linear infinite, border_animation1 30s; */
 
-    border: 0.1px solid rgb(0, 255, 0);
+    border: 2px solid rgb(0, 255, 0); 
     animation: animate2 5s linear infinite; 
     animation-delay: calc(-0.5s * var(--i));
 }
