@@ -1,4 +1,3 @@
-
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
@@ -30,8 +29,5 @@ function changeText(){
   
 }
  
-setInterval(changeText, 500); 
+setInterval(changeText, 2000); 
 changeText();
-
-
-
