@@ -1,3 +1,3 @@
 from main import insert_data
 
-insert_data('pdfs/krivera.pdf')
+insert_data('pdfs/meganbrock.pdf')
