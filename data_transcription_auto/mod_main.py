@@ -67,22 +67,6 @@ def insert_data(path):
     range_name = 'Sheet1!A'+str(start_row)+':BW'+str(end_row)
     write_range(range_name, values)
 
-def mod_insert_data(path):    
-    data_dict = mod_data_extract(path)
-    # convert data_dict into list
-    values = []
-
-    values.append(convert_data('r', data_dict))
-    values.append(convert_data('l', data_dict))
-
-    values[0].append(path)
-    values[1].append(path)
-
-    start_row = find_empty() + 1
-    end_row = start_row + 2
-    range_name = 'Sheet1!A'+str(start_row)+':BW'+str(end_row)
-    write_range(range_name, values)
-
 # for filepath in glob.iglob('pdfs' + '/' + '*'):
 #     insert_data(filepath)
 

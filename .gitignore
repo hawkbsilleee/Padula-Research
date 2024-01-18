@@ -1,8 +1,9 @@
 data_transcription_auto/pdfs/
 data_transcription_auto/__pycache__/
-# data_transcription_auto/auth.py
+data_transcription_auto/auth.py
+graphs/
 # data_transcription_auto/create-sheets.py
 # data_transcription_auto/credentials.json
-# data_transcription_auto/requirements.txt
-# data_transcription_auto/update.py
+data_transcription_auto/requirements.txt
+data_transcription_auto/update.py
 
